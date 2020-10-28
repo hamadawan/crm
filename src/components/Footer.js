@@ -1,4 +1,5 @@
 import Grid from '@material-ui/core/Grid';
+import { ReactComponent as Instagram } from '../images/instagram2.svg'
 
 function Footer() {
   return (
@@ -23,7 +24,14 @@ function Footer() {
             <div>PRESS</div>
           </div>
         </div>
-        <div>
+        <div style={{display:'flex', flexDirection:'row', 
+              justifyContent:'center', paddingBottom:'50px'
+        }}>
+          <Instagram/>
+          <Instagram/>
+          <Instagram/>
+          <Instagram/>
+          <Instagram/>
         </div>
     </div>
   );
