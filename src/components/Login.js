@@ -4,7 +4,10 @@ function Login() {
   return (
     <>
     <Navbar/>
-    <div>Login</div>
+    <div style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
+      <div>Booked with WIVO with before ? </div>
+      <div style={{backgroundColor:'black',fontWeight:'bold'}}>Sign in</div>
+    </div>
     </>
 
   );

@@ -6,6 +6,8 @@ import { ReactComponent as Instagram } from '../images/instagram.svg'
 import {
     Link,
   } from "react-router-dom";
+
+  
 function Banner() {
   return (
     <div>
